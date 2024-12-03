@@ -1,7 +1,7 @@
 #!php
 <?php
 
-use Dannyvdsluijs\AdventOfCode2016;
+declare(strict_types=1);
 
 require_once 'vendor/autoload.php';
 
@@ -33,7 +33,7 @@ if (($argv[2] ?? '') === 'input') {
     exit(0);
 }
 
-$className = sprintf("\Dannyvdsluijs\AdventOfCode2016\Day%02d", $argv[1]);
+$className = sprintf("\Dannyvdsluijs\AdventOfCode2024\Day%02d", $argv[1]);
 $object = new $className();
 $part = (int) ($argv[2] ?? 1);
 

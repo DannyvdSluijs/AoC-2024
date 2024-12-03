@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dannyvdsluijs\AdventOfCode2016;
+namespace Dannyvdsluijs\AdventOfCode2024;
 
-use Dannyvdsluijs\AdventOfCode2016\Concerns\ContentReader;
+use Dannyvdsluijs\AdventOfCode2024\Concerns\ContentReader;
 
 class Day03
 {

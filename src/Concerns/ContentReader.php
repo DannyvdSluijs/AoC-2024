@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dannyvdsluijs\AdventOfCode2016\Concerns;
+namespace Dannyvdsluijs\AdventOfCode2024\Concerns;
 
 trait ContentReader
 {
