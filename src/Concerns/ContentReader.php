@@ -72,6 +72,13 @@ trait ContentReader
         return array_map(static fn($line) => array_map(intval(...), array_values(array_filter(explode(' ', $line)))), $lines);
     }
 
+    /** @return list<list<int>> */
+    public function readInputAsListOfNumbers(): array
+    {
+        [$line] = $this->readInputAsLines();
+        return array_map(intval(...), array_values(str_split($line)));
+    }
+
     /** @return list<list<string>> */
     public function readInputAsGridOfWords(): array
     {
